@@ -2,7 +2,6 @@
 Thumbs.db
 db.json
 *.log
-node_modules/
 public/
 .deploy*/
 _multiconfig.yml
@@ -14,3 +13,4 @@ themes
 _config.landscape.yml
 package-lock.json
 package.json
+node_modules
