@@ -6,7 +6,6 @@ public/
 .deploy*/
 _multiconfig.yml
 .github
-scaffolds
 
 .*.un~
 themes
