@@ -1,0 +1,122 @@
+h1.info{
+    /* text-align: center; */
+    float:right;
+    font-size:40px;
+    color: white;
+    margin-top: 0px;
+    margin-right: 50px;
+}
+
+
+
+h1{
+    font-size:23px;
+}
+h2.time{
+    display:inline-block;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+span{
+    font-size:18px;
+}
+
+span.time{
+    float:right;
+}
+
+div.info{
+    text-align: left;
+    color:white;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+div.college{
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+li{
+    font-size:18px;
+    margin-left: -18px;
+    margin-bottom: 6px;
+}
+ul{
+    margin-top: -5px;
+}
+ul.skill{
+    margin-top: 0px;
+}
+hr{
+    border:0;
+    height:2px;
+    margin-top: -10px;
+    background-color: purple;
+}
+
+img.education{
+    height: 35px;
+    margin-bottom: -10px;
+    margin-right: 10px;
+}
+
+img.honor{
+    height: 30px;
+    margin-bottom: -7px;
+    margin-right: 12px;
+}
+
+img.work{
+    height: 28px;
+    margin-bottom: -7px;
+    margin-right: 8px;
+}
+img.skill{
+    height: 35px;
+    margin-bottom: -8px;
+    margin-right: 5px;
+}
+
+img.info{
+    height: 20px;
+    margin-bottom: -5px;
+    margin-right: 0px;
+}
+
+img.photo{
+    float:right;
+    height:130px;
+    margin-right:100px;
+}
+
+div.eduul{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+div.header-resume{
+    width:1000px;
+    margin:0 auto;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:30px;
+    padding-bottom:20px;
+    background: #d81e06; 
+}
+
+div.main-resume {
+    width:1000px;
+    margin:0 auto;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:10px;
+    padding-bottom:50px;
+    background: #ffffff;
+}
+
+body{
+    background:gray;
+    font-family:'Open+Sans';
+}
