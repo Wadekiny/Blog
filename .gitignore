@@ -11,3 +11,6 @@ scaffolds
 
 .*.un~
 themes
+_config.landscape.yml
+package-lock.json
+package.json
