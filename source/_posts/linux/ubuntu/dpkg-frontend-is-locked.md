@@ -1,9 +1,9 @@
 ---
 title: 报错：dpkg-frontend-is-locked
 mathjax: true
-tags: [ubuntu, software]
+tags: [linux, ubuntu]
 date: 2022-02-14 12:31:42
-categories: ubuntu
+categories: linux
 description: 
 ---
 

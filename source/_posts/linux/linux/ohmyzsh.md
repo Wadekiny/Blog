@@ -1,8 +1,8 @@
 ---
 title: oh-my-zsh
 date: 2021-04-13 21:40:54
-tags: [shell,ubuntu]
-categories: ubuntu 
+tags: [linux,zsh]
+categories: linux 
 description: oh-my-zsh安装，zsh配置文件 (oh-my-zsh)
 ---
 

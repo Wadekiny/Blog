@@ -1,8 +1,8 @@
 ---
 title: ubuntu18.04 CapsLock和Esc互换
 date: 2021-02-12 14:30:35
-tags: [ubuntu, vim]
-categories: ubuntu 
+tags: [linux, keyboard,esc,capslock,xmodmap]
+categories: linux 
 description: 互换ESC和CapsLock，方便使用vim
 ---
 

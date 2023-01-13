@@ -2,8 +2,8 @@
 title: Vim插件
 mathjax: true
 date: 2021-01-02 15:26:58
-tags: [vim, ubuntu]
-categories: ubuntu 
+tags: [linux,vim, nvim]
+categories: linux 
 description: 使用的vim插件汇总
 ---
 # 图标问题

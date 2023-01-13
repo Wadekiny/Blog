@@ -1,9 +1,9 @@
 ---
 title: 窗口管理器i3wm安装配置
 mathjax: true
-tags: [ubuntu,i3]
+tags: [linux,i3]
 date: 2022-06-22 13:34:38
-categories: ubuntu
+categories: linux
 description: i3wm.md
 ---
 

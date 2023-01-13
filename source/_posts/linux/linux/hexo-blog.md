@@ -1,7 +1,7 @@
 ---
 title: hexo-blog搭建
 date: 2021-04-13 18:50:33
-tags: [hexo, blog]
+tags: [linux, hexo, blog]
 categories: blog
 description: hexo博客搭建，一些个性化配置
 ---

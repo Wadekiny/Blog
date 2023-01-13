@@ -1,9 +1,9 @@
 ---
 title: webp2png
 mathjax: true
-tags: [ubuntu, image]
+tags: [linux, image, format]
 date: 2022-06-28 12:55:54
-categories: ubuntu
+categories: linux
 description: ubuntu下将webp文件转换为png文件
 ---
 

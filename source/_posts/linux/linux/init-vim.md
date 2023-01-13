@@ -2,9 +2,9 @@
 title: init-vim
 mathjax: true
 date: 2021-04-13 21:25:08
-tags: [ubuntu, vim]
-categories: ubuntu
-description: vim(neovim) 配置文件
+tags: [linux, vim]
+categories: linux
+description: 老版vim(neovim) 配置文件,现在已更新为neovim
 ---
 
 ```config

@@ -1,8 +1,8 @@
 ---
 title: ubuntu下firefox不能播放视频
 mathjax: true
-tags: [ubuntu,firefox]
-categories: ubuntu 
+tags: [linux,ubuntu,firefox]
+categories: linux 
 date: 2021-06-09 15:29:33
 description: ubuntu18.04, firefox 浏览器播放视频
 ---

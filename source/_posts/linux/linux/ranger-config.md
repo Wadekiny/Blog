@@ -1,8 +1,8 @@
 ---
 title: ranger配置
 date: 2021-04-02 12:46:09
-tags: [ranger,ubuntu]
-categories: ubuntu 
+tags: [linux,ranger]
+categories: linux 
 description: ranger配置文件创建，配置ranger
 ---
 

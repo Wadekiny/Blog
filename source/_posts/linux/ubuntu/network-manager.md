@@ -1,9 +1,9 @@
 ---
 title: ubuntu18.04 网络管理方式
 mathjax: true
-tags: [ubuntu, network-manager]
+tags: [linux, ubuntu, network]
 date: 2021-07-19 20:53:03
-categories: ubuntu
+categories: linux
 description: network-manager.md
 ---
 

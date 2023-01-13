@@ -1,8 +1,8 @@
 ---
 title: ubuntu更换软件源
 date: 2021-02-12 01:25:53
-tags: [ubuntu]
-categories: ubuntu 
+tags: [linux,ubuntu]
+categories: linux 
 description: ubuntu 更换软件源
 ---
 

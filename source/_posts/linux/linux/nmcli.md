@@ -1,9 +1,9 @@
 ---
 title: nmcli 网络连接
 mathjax: true
-tags: [ubuntu, network-manager, wifi]
+tags: [linux, network, wifi]
 date: 2022-06-26 19:43:43
-categories: ubuntu 
+categories: linux 
 description: 使用 nmcli 命令进行网络连接
 ---
 

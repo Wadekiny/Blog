@@ -1,8 +1,8 @@
 ---
 title: case-and-tab
 date: 2021-04-13 21:46:55
-tags: [ubuntu, shell]
-categories: ubuntu 
+tags: [linux, bash]
+categories: linux 
 description: bash忽略大小写，Tab自动补全
 ---
 

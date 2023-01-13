@@ -1,8 +1,8 @@
 ---
 title: ubuntu18.04美化
 date: 2020-12-31 19:09:45
-tags: [ubuntu, gnome]
-categories: ubuntu
+tags: [linux,ubuntu, gnome]
+categories: linux
 description: gnome桌面环境下的美化 (用i3了，已经不用gnome了)
 ---
 

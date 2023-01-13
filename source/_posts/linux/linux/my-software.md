@@ -1,9 +1,9 @@
 ---
 title: ubuntu软件安装位置
 mathjax: true
-tags: [ubuntu, software]
+tags: [linux, software]
 date: 2022-02-14 13:17:09
-categories: ubuntu
+categories: linux
 description: 
 ---
 

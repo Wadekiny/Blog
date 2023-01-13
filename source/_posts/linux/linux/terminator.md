@@ -1,9 +1,9 @@
 ---
 title: terminator
 mathjax: true
-tags: [ubuntu, terminal]
+tags: [linux, terminal]
 date: 2022-02-27 17:51:07
-categories: ubuntu
+categories: linux
 description: 用 terminator 遇到的一些问题
 ---
 

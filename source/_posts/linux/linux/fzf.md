@@ -1,9 +1,9 @@
 ---
 title: fzf 模糊文件查找
 mathjax: true
-tags: [ubuntu, fzf]
+tags: [linux, fzf]
 date: 2022-07-09 21:17:10
-categories: ubuntu 
+categories: linux 
 description: FZF 的安装与配置
 ---
 

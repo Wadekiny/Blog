@@ -1,8 +1,8 @@
 ---
 title: chown-chgrp
 date: 2021-04-13 21:55:07
-tags: [ubuntu, chown, chgrp]
-categories: ubuntu  
+tags: [linux, chown, chgrp]
+categories: linux 
 description: 更改文件所属者
 ---
 

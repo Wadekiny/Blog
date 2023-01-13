@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 mathjax: true
-tags: [,]
+tags: []
 categories: 
 description: 
 ---

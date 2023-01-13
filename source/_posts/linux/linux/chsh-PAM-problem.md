@@ -1,8 +1,8 @@
 ---
 title: chsh-PAM-problem
 date: 2021-04-04 17:39:55
-tags: [ubuntu, shell]
-categories: ubuntu  
+tags: [linux, shell, zsh, fish]
+categories: linux  
 description: 更换shell为zsh遇到的问题
 ---
 

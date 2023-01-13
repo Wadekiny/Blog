@@ -86,7 +86,8 @@ dunst!
 dunst要不要加到开机启动？
 vim:hex 16进制表示方法
 :set laststatus=2
-:set statusline=%<%f%h%m%r%=%b\ 0x%B\ \ %l,%c%V\ %P
+`:set statusline=%<%f%h%m%r%=%b\ 0x%B\ \ %l,%c%V\ %P`
+
 dwm statusbar 日期部分显示异常，加正则表达式替换
  cal | sed  's/_/test/g' | nvim
 ：
@@ -139,3 +140,151 @@ dunst是系统自带的
 lsp
 dwm-statusbar有时候不显示，是因为temp里多了一对@,不知道为什么
 windows的zip文件在ubuntu解压乱码k
+
+
+ install arch linux
+ merge code new roman and maiyuan
+  fcixt5 vim 
+ sound pulseaudio dwm shortcut change volume use pactl instead of axmier
+
+ how to view a key code? like
+    { 0,    XF86XK_AudioLowerVolume,  spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -5%") },                              /* super shift down | 音量减                 */
+    xkxxxxxxx
+
+#include <X11/XF86keysym.h>?
+
+
+ amd-display-xf?? 装了后显示异常，不如不装
+ pip 换源
+
+ 网卡驱动
+ realtek rtl8852be wifi 6 802.11ax pcie adapter  archlinux 驱动
+
+ 开机不自动换esc capslock？
+ 
+grub add windows
+
+feh dnust betterlockscreen rofi picom dwm 
+
+.Xresources 
+.xinitrc
+免密自动登录 startx
+
+clash for windows
+
+aur makepkg
+nm-applet 貌似是ubuntu下的，arch不能用 ,用nm-tray-git
+
+
+
+
+
+esc2caps 和 fcitx5 -d 都放到autostart里不行
+
+fcitx5 -d 不在autostart时，esc2caps起作用
+起作用后在启动fcitx5 -d esc2caps 又不起作用了
+再esc2caps,又起作用了
+
+所以是fcitx5重置了esc2caps
+https://wiki.archlinux.org/title/fcitx
+提到了 fcitx会覆盖xmodmap的作用
+Fcitx now control keyboard layout and when switch layout, xmodmap setting will be overwritten. So fcitx-xkb provides an option to specify the xmodmap script and let fcitx loads it for you whenever keyboard layout changes. Or disable fcitx-xkb addon is also a solution for you, or if your requirement is simply, for example, switching Caps Lock and Esc, which is provided by xkb option, you can just set it with your desktop keyboard configuration tool (Gnome and KDE all support such configuration).
+
+For more detailed explanation, xmodmap is a very low level tool, that doesn't aware keyboard layout. For X11, keyboard layout is built on a set of profile, when such profile is loaded, anything you changed with xmodmap will be overwritten, this isn't specific to fcitx, but all tool that support keyboard layout configuration. Xkb option is a set of profile that can do some pre-defined change over keyboard layout, including many thing that people usually do with xmodmap, for example, defining where dead key is, switching Caps Lock and Esc, and so on. Unless you have special requirements, xkb layout and xkb option is recommended.
+
+Since 4.2.7, Fcitx will try to load ~/.Xmodmap if it exists.
+
+由于不只是fcitx会出现此情况，其他软件也有可能，解决方法最好是用xkb(Xorg/Keyboard configuration)
+
+setxkbmap -option "caps:swapescape"
+
+
+
+
+neovide can implement cursors smooth but can not input Chinese
+how to set fonts?????????
+
+
+maiyuan font : 11904 start  end 184000 ,放弃了 并且使用jetbrains nerdfont字体，其他字体可能不会对齐
+
+neovide不能输入中文，winit？
+
+
+zotero
+
+
+aur:
+yay:
+sudo pacman -S yay
+坚果云 zotero
+
+安装微信需要打开multilib
+https://blog.csdn.net/weixin_52027058/article/details/128346840
+
+
+fontforge合并字体之后 还要在小修改一下符号，避免边框对不起(然而含麻烦)
+
+
+微信https://github.com/vufa/deepin-wine-wechat-arch#%E4%BB%8Eaur%E5%AE%89%E8%A3%85
+
+
+https://github.com/vufa/deepin-wine-wechat-arch#%E4%BB%8Eaur%E5%AE%89%E8%A3%85
+ohttps://www.bilibili.com/video/BV1Z3411F7TL/?spm_id_from=333.337.search-card.all.click&vd_source=c59669dc10d72873dc1a840e4c9b6095
+
+
+
+
+
+flameshot 截图不能直接复制到qq 微信 no tray refer:
+https://wiki.archlinux.org/title/Flameshot
+
+vim 如何在浮动窗口和普通窗口切换
+023-01-12T19:23:37 Messages  INFO line    8:
+Needs xclip in X11 or wl-clipboard in Wayland.
+2023-01-12T19:23:37 Error  ERROR Error detected while processing function MdPasteImage[5]..mdip#MarkdownClipboardImage[23]..<SNR>58_SaveFileTMP[6]..<SNR>58_SaveFileTMPLinux:
+2023-01-12T19:23:49 Messages  INFO 2023-01-12T19:23:37 Messages  INFO line    8:
+Needs xclip in X11 or wl-clipboard in Wayland.
+2023-01-12T19:23:37 Error  ERROR Error detected while processing function MdPasteImage[5]..mdip#MarkdownClipboardImage[23]..<SNR>58_SaveFileTMP[6]..<SNR>58_SaveFileTMPLinux:
+2023-01-12T19:24:01 Error  ERROR E488: Trailing characters: list
+
+
+flameshot &
+flameshot gui
+https://github.com/flameshot-org/flameshot/issues/2496
+
+
+
+xorg 缩放倍数
+设置鼠标样式 大小
+https://wiki.archlinuxcn.org/zh-hans/%E5%85%89%E6%A0%87%E4%B8%BB%E9%A2%98
+lxapperance
+
+文件夹可视化管理
+nautilus
+
+xrandr --output e-DP1 --scale 0.5x0.5
+
+npm fanyi 的问题
+https://github.com/afc163/fanyi#error-spawn-festival-enoent
+sudo apt-get install festival festvox-kallpc16k
+
+arch无法识别typec接口显示器
+
+
+设置亮度 sudo echo 50 > /sys/class/backligh^Cmdgpu_bl0/brightness
+root用户才行，sudo不能获取root全部权限
+
+
+获取窗口名称？
+
+挂载windows分区https://zhuanlan.zhihu.com/p/513859236
+
+
+怎么有时候会卡死？好像和fcitx有关
+grub不能识别windows
+从archlinux.md中拆分 profile bashrcxxxxx优先级，形成一篇新的
+
+Xresources修改dpi？
+https://zhuanlan.zhihu.com/p/513859236
+wechat 锁更新
+okular pdf查看器查看器

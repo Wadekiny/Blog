@@ -1,8 +1,8 @@
 ---
 title: "报错：bash\r:no such file or directory"
 date: 2021-04-13 20:29:25
-tags: [ubuntu, shell]
-categories: ubuntu 
+tags: [linux, bash]
+categories: linux 
 description: 文件格式导致的错误
 ---
 

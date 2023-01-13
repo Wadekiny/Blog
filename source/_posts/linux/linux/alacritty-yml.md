@@ -1,8 +1,8 @@
 ---
 title: alacritty-yml
 date: 2021-04-13 21:37:25
-tags: [ubuntu, terminal]
-categories: ubuntu
+tags: [linux, terminal]
+categories: linux
 description: alacritty配置文件
 ---
 

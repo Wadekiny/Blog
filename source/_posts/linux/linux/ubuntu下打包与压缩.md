@@ -1,8 +1,8 @@
 ---
 title: ubuntu下打包与压缩
 date: 2021-01-01 15:53:14
-tags: [ubuntu]
-categories: ubuntu 
+tags: [linux,tar,zip,rar]
+categories: linux 
 description: tar, zip 等命令的使用
 ---
 

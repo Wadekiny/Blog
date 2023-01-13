@@ -1,8 +1,8 @@
 ---
 title: ubuntu录屏
 mathjax: true
-tags: [ubuntu,gnome]
-categories: ubuntu 
+tags: [linux,ubuntu,gnome]
+categories: linux 
 date: 2022-01-30 22:24:10
 description: gnome下录屏 (i3无用)
 ---

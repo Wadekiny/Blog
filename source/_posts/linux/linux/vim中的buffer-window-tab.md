@@ -2,8 +2,8 @@
 title: 'vim:buffer window tab'
 mathjax: true
 date: 2021-01-01 20:53:33
-tags: [vim,ubuntu]
-categories: ubuntu 
+tags: [linux,vim,nvim]
+categories: linux 
 description: buffer, window, tab是什么
 ---
 
