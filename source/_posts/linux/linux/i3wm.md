@@ -138,7 +138,7 @@ bindsym $mod+d exec --no-startup-id rofi -theme slate.rasi -show combi -show-ico
 2. i3lock-color
 https://github.com/Raymo111/i3lock-color
 
-3. betterlockscreen (最终使用)
+3. betterlockscreen (最终使用) 需要的依赖是i3lock
 https://github.com/betterlockscreen/betterlockscreen
 
 - 我的配置文件: https://github.com/Wadekiny/dotfiles
@@ -291,3 +291,7 @@ xinput --set-prop $id $natural_scrolling_id 1
 - 使用i3的边框再用picom圆角，会导致四个角的边框被削掉。
 
 用这个: https://github.com/Wadekiny/xborders
+
+# 使用autotiling自动布局
+https://github.com/nwg-piotr/autotiling
+

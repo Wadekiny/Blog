@@ -23,3 +23,6 @@ $ ranger --copy-config=all
 ```config
 export RANGER_LOAD_DEFAULT_RC FALSE
 ```
+
+## 配置默认文件编辑器：
+在`rifile.conf`中
