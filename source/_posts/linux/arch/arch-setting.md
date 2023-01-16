@@ -104,16 +104,38 @@ Server =  https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ## 文件夹可视化管理
 - nautilus
 
+## pdf查看器
+- okular
+
 ## 修改光标样式
 - https://wiki.archlinuxcn.org/zh-hans/%E5%85%89%E6%A0%87%E4%B8%BB%E9%A2%98
 - lxapperance
 
 
 ## fcitx5安装
-# WARN  
-# WARN  
-# WARN  
-# WARN  
+1. 安装fcitx5
+```
+sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-qt fcitx5-gtk
+```
+2. 在`~/.xinitrc`中添加：
+```
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export INPUT_METHOD=fcitx
+export SDL_IM_MODULE=fcitx
+```
+3. 添加到dwm的autostart脚本中
+```
+fcitx5- d &
+```
+4. 打开`fcitx5-configtool`, 将`Pinyin` 添加到输入法列表当中
+5. 安装主题，需要在`fcitx5-configtool`中设置
+```
+sudo pacman -S fcitx5-pinyin-zhwiki fcitx5-material-color fcitx5-nord
+```
+
+
 ## fcitx在终端内不能触发
 - 可能是终端的问题,比如kitty,但kitty有个好处是预览图片方便(ranger)
 - 在`~/.xinitrc`内，注意顺序
@@ -121,6 +143,7 @@ Server =  https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
     export GTK_IM_MODULE=fcitx
     export QT_IM_MODULE=fcitx
     export XMODIFIERS="@im=fcitx"
+    ...
     exec dwm
     ```
 
@@ -130,5 +153,12 @@ Server =  https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 - 如果把'.xmodmap'文件放到其他目录下，xmodmap的效果会被覆盖
 - 不仅fcitx会覆盖xmodmap,其他软件也有可能
 - 改用xkb命令：`setxkbmap -option "caps:swapescape"`
+
+## flameshot截图不能复制到剪切板
+- 直接`flameshot gui`不能复制到剪切板，也不会有托盘图标
+- 解决：在dwm的autostart脚本中添加：`flameshot gui`
+- 可能还要安装wl-clipboard(vim中md文件快速粘贴图片)
+> https://wiki.archlinux.org/title/Flameshot
+> https://github.com/flameshot-org/flameshot/issues/2496
 
 

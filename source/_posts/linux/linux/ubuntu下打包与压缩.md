@@ -70,6 +70,8 @@ tar -xf archive.tar          #解开归档文件 archive.tar
 - *.rar 用 unrar e解压
 - *.zip 用 unzip 解压
 
----
-
----
+## zip解压乱码问题
+```
+unzip -O GBK file_name.zip
+```
+> https://www.findhao.net/easycoding/1605
