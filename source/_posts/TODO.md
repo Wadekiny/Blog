@@ -92,3 +92,20 @@ hexo next  搜索
 
 
 wechat udis86
+
+
+waybar sound network
+wayland network : exex nm-applet --indicator
+> https://github.com/swaywm/sway/issues/1357#issuecomment-894436375
+
+截图：grimshot脚本
+
+obs need qt6-wayland
+obs在屏幕缩放为2时报错不能启动
+nvim 的dap vscode-cpp程序位置
+g++ -g 生成调试信息 -o 输出文件名
+vim 内置终端样式 cursor 好像还改不了
+https://github.com/neovim/neovim/issues/3681
+
+firefox 设置全屏不隐藏标签栏目
+https://blog.csdn.net/dongzhiquan/article/details/6245732
