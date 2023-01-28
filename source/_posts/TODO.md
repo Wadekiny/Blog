@@ -109,3 +109,18 @@ https://github.com/neovim/neovim/issues/3681
 
 firefox 设置全屏不隐藏标签栏目
 https://blog.csdn.net/dongzhiquan/article/details/6245732
+
+arch蓝牙
+mark.vim
+
+高亮选中单词
+
+
+
+vim 代码模板
+vim clang-format自定义格式
+
+cpp调试去掉选项2
+
+vim 中间一排数字键
+ rockerBOO /awesome-neovim 有一些插件
