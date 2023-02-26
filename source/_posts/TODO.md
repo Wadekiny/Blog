@@ -124,3 +124,157 @@ cpp调试去掉选项2
 
 vim 中间一排数字键
  rockerBOO /awesome-neovim 有一些插件
+
+ vimscript字符串替换 substitute
+ https://blog.csdn.net/smstong/article/details/20791329
+
+ vim redraw
+
+ select mode
+ visual mode
+ modemap -x
+
+ vim 导出map
+
+ psmr 30
+
+ sudo waydroid init
+ [22:03:12] Failed to load binder driver
+[22:03:12] modprobe: FATAL: Module binder_linux not found in directory /lib/modules/5.15.90-1-lts
+[22:03:12] ERROR: Binder node "binder" for waydroid not found
+[22:03:12] See also: <https://github.com/waydroid>
+Run 'waydroid log' for details
+https://github.com/waydroid/waydroid/issues/535
+> yay -S anbox-modules-dkms-git
+
+
+waydroid init下载速度太慢，手动下载
+https://github.com/waydroid/waydroid/issues/215
+注意要下载两个压缩包，并解压
+
+
+hyprland wlogout
+
+swaylock-effect
+
+
+wayland键盘映射
+https://github.com/KarsMulder/evsieve
+> https://wiki.archlinux.org/title/Input_remap_utilities
+
+https://python-evdev.readthedocs.io/en/latest/install.html
+先修改event的读写权限(用户所在组)
+> https://github.com/k0kubun/xremap
+https://cloud.tencent.com/developer/article/1725906
+https://learnku.com/articles/31223
+https://www.myfreax.com/how-to-add-user-to-group-in-linux/
+
+cava 显示音乐波形
+tty-clock
+
+类似资源管理的东西 btop
+
+neovide： WINIT_UNIX_BACKEND=x11 neovide但是仍然不能使用fcitx
+
+pip 安装的kbmap,运行提示Traceback (most recent call last):
+  File "/home/wadekiny/.local/bin/kbmap", line 2, in <module>
+    from kbmap.kbmap import main
+  File "/home/wadekiny/.local/lib/python3.10/site-packages/kbmap/kbmap.py", line 6, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+
+解决：pip install setuptools
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nerf:
+NeRFFaceEditing: Disentangled Face Editing in Neural Radiance Fields
+
+
+
+1. img+audio drive  nerf
+dfa-nerf
+ad-nerf
+
+2. img+text drive nerf
+Nerf-Art
+Zero-Shot Text-Guided Object Generation with Dream Fields
+clip-nerf
+coc virtual text
+
+
+
+
+
+
+# 流程
+
+
+
+
+
+
+
+项目问题 堆栈溢出
+ulxxx命令查看
+
+waybar-hyprland-git
+https://aur.archlinux.org/packages/waybar-hyprland-git
+
+
+新版waybar好像取消了其他模块的hover功能,换回之前commit的那个版本
+对于hyprland,在编译waybar时,需要
+https://github.com/Alexays/Waybar/issues/1640#issuecomment-1278519500
+否则回unknowmodule wlr/workspaces
+解决
+
+
+clone下来的waybar不能点击切换workspace,因为默认没有调用hyprctl dispatch workspace ...
+用waybar-hyprland-git中的
+    sed -i 's/zext_workspace_handle_v1_activate(workspace_handle_);/const std::string command = "hyprctl dispatch workspace " + name_;\n\tsystem(command.c_str());/g' src/modules/wlr/workspace_manager.cpp # use hyprctl to switch workspaces
+
+    实现
+
+
+启动终端并在终端内执行命令
+`alacritty -t <title> -e <command>`
+tui ftpscp工具
+
+
+archlinux 开机自动启动
+> https://blog.csdn.net/gddxz_zhouhao/article/details/52837593
+https://wiki.archlinuxcn.org/wiki/Getty
+
+添加：
+/etc/systemd/system/getty@tty1.service.d/override.conf
+
+[Service]
+ExecStart=
+ExecStart=-/usr/bin/agetty --autologin username --noclear %I $TERM
+
+
+
+# 耗电测试
+
+50min 13%
+60@ 20%
