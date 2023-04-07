@@ -268,13 +268,53 @@ https://wiki.archlinuxcn.org/wiki/Getty
 添加：
 /etc/systemd/system/getty@tty1.service.d/override.conf
 
+```
 [Service]
 ExecStart=
 ExecStart=-/usr/bin/agetty --autologin username --noclear %I $TERM
-
+```
 
 
 # 耗电测试
 
 50min 13%
 60@ 20%
+
+
+# 鼠标不能用
+https://bbs.archlinux.org/viewtopic.php?id=255844
+
+https://wiki.archlinux.org/title/Power_management#USB_autosuspend
+耗电模式不兼容
+
+
+
+## talking head
+1. 真正的nerf,借鉴动态nerf的方法,hyprnerf enerf dnerf
+2. use 2d  generate method(vae)
+3. 情绪
+4. relighting
+
+
+keyd 导致 鼠标不能用
+https://bbs.archlinuxcn.org/viewtopic.php?id=13260
+
+
+
+
+
+
+
+
+
+
+
+    22健康数据科学团支部
+
+    22软件工程第一团支部
+
+    22软件工程第二团支部
+
+
+
+
